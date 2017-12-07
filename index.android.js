@@ -1,21 +1,14 @@
 import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+import { AppRegistry} from 'react-native';
 
-import Calculator from './src/components/Calculator';
+import App from './src/App';
 
 export default class react_native_calculator extends Component {
   render() {
     return (
-      
-        <Calculator/>      
+        <App/>      
     );
   }
 }
-
 
 AppRegistry.registerComponent('react_native_calculator', () => react_native_calculator);
