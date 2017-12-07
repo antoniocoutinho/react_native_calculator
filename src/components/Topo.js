@@ -4,8 +4,10 @@ import {
   View,
 } from 'react-native';
 
-export default props => (   
+const Topo = props => (   
         <View>
             <Text>TOPO</Text>
         </View>
 )
+
+export {Topo};
