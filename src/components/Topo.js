@@ -4,10 +4,10 @@ import {
   View,
 } from 'react-native';
 
+import Cabecalho from './Cabecalho';
+
 const Topo = props => (   
-        <View>
-            <Text>TOPO</Text>
-        </View>
+        <Cabecalho/>
 )
 
 export {Topo};
