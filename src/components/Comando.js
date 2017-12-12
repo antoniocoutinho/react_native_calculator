@@ -3,7 +3,6 @@ import {
     View,
     Text,
     StyleSheet,
-    TextInput,
     Button
  } from 'react-native';
 
@@ -12,7 +11,7 @@ const alertt = () => {alert("oi")}
 export default props => (
     <View >
         <Button
-        title={"Teste"}
+        title={"Calcular"}
         onPress={alertt}
         />
     </View>

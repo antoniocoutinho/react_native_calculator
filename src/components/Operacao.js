@@ -3,18 +3,20 @@ import {
     View,
     Text,
     StyleSheet,
-    TextInput
+    TextInput,
+    Picker
  } from 'react-native';
 
 export default props => (
-    <View >
-        <Text>Operacao</Text>
-    </View>
+    <Picker style={styles.operacao}>
+        <Picker.Item label='Soma'/>
+        <Picker.Item label='Subtração'/>        
+    </Picker>    
 ) 
 
 const styles = StyleSheet.create({
-    visorView:{
-        height:100,
-        fontSize: 35
+    operacao:{
+        marginTop: 15,
+        marginBottom: 15
     }
 })
