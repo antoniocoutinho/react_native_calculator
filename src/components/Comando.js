@@ -6,13 +6,11 @@ import {
     Button
  } from 'react-native';
 
-const alertt = () => {alert("oi")}
-
 export default props => (
     <View >
         <Button
         title={"Calcular"}
-        onPress={alertt}
+        onPress={props.acao}
         />
     </View>
 ) 

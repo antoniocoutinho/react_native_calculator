@@ -6,8 +6,8 @@ import Numero from './Numero';
 
 export default props => (
     <View style={styles.entrada}>
-        <Numero/>
-        <Numero/>
+        <Numero propsNumero={props.propsNum1}/>
+        <Numero propsNumero={props.propsNum2}/>
     </View>
 );
 

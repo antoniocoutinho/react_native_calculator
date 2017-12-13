@@ -4,7 +4,10 @@ import { Text, TextInput, View, StyleSheet} from 'react-native';
 export default props => (
     
         <TextInput 
+            value={props.propsNumero}
             style={styles.numero}
+            onChangeText={(valorDoCampo) =>
+                 console.log(valorDoCampo)}
         />
 )
 
