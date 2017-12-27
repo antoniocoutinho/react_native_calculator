@@ -7,7 +7,7 @@ export default props => (
             value={props.propsNumero}
             style={styles.numero}
             onChangeText={valorDoCampo =>
-                 props.atualizaValor(valorDoCampo)}
+                 props.atualizaValor(props.nome, valorDoCampo)}
         />
 )
 

@@ -6,25 +6,15 @@ import {
     TextInput
  } from 'react-native';
 
-export default class Visor extends Component {
-    constructor(props){
-        super(props);
-        this.state = { resultado: ''};
-    }
-    
-    render () {
-        return(
+export default Visor = props => (
             <View> 
                 <TextInput
-                    placeholder="Resultado"
-                    value={this.state.resultado}
+                    placeholder='Resultado'
+                    value={props.resultado}
                     style={styles.visorView}
                 />
             </View>
         );
-    }
-}
-
 
 const styles = StyleSheet.create({
     visorView:{
