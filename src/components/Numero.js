@@ -6,8 +6,8 @@ export default props => (
         <TextInput 
             value={props.propsNumero}
             style={styles.numero}
-            onChangeText={(valorDoCampo) =>
-                 console.log(valorDoCampo)}
+            onChangeText={valorDoCampo =>
+                 props.atualizaValor(valorDoCampo)}
         />
 )
 
